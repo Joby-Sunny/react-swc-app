@@ -8,11 +8,11 @@ export function App() {
 
   return (
     <div className={style.container}>
-      <h2> React Server Side Works </h2>
+      <h2>Simple Counter App</h2>
       <p>{count}</p>
       <div>
-      <button onClick={toggleCount(1)}>Increment</button>
-      <button onClick={toggleCount(-1)}>Decrement</button>
+        <button onClick={toggleCount(1)}>Increment</button>
+        <button onClick={toggleCount(-1)}>Decrement</button>
       </div>
     </div>
   );
